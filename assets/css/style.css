@@ -17,12 +17,19 @@ footer {
 }
 
 header {
-    color: #5c1310;
+    background-color: #5c1310;
     position: fixed;
+    left: 0;
+    right: 0;
 }
 
 main {
     min-height: 80vh;
+    padding-top: 70px;
+}
+
+img {
+    height: 300px;
 }
 
 footer {
