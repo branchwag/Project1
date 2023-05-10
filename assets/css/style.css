@@ -54,11 +54,21 @@ p {
 
 img {
     height: 300px;
-    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     left: 50%;
 }
 
-form {
+.formholder{
+    position: relative;
+}
+
+.form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     position: center;
 }
 
