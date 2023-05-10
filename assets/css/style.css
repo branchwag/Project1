@@ -2,11 +2,11 @@
 
 * {
     box-sizing: border-box;
-    /* wireframing border */
-    /* border: 1px solid red; */
+    /* border: 1px solid black; */
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin: 0;
+    color: black;
 }
 
 header,
@@ -28,13 +28,27 @@ header {
     color: #ffff;
 }
 
-ul{
+.pagemenu ul{
     list-style-type: none;
+}
+
+.pagemenu ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.pagemenu a{
+    text-decoration: none;
+    color: #ffff;
 }
 
 main {
     min-height: 80vh;
     padding-top: 10%;
+    position: relative;
+}
+
+p {
     color: #0000;
 }
 
