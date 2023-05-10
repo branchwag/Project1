@@ -20,6 +20,7 @@ header {
     left: 0;
     right: 0;
     color: #ffff;
+    z-index: 1;
 }
 
 header h1 {
@@ -49,8 +50,8 @@ header h1 {
 }
 
 main {
-    min-height: 80vh;
-    padding-top: 10%;
+    min-height: 50vh;
+    padding-top: 5%;
     position: relative;
 }
 
@@ -59,7 +60,7 @@ h2 {
     text-align: center;
 }
 
-p {
+main p {
     color: black;
     text-align: center;
 }
@@ -82,11 +83,13 @@ img {
     margin-right: auto;
     width: 50%;
     position: center;
+    text-align: center;
 }
 
 footer {
     background-color: #5c1310;
     left: 0;
     right: 0;
-    color: #ffff;
+    color: white;
+    text-align: center;
 }
